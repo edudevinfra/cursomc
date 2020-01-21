@@ -58,8 +58,4 @@ public class Cidade implements Serializable {
 		this.estado = estado;
 	}
 	
-	
-	
-	
-
 }
