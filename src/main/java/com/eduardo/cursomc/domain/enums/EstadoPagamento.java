@@ -2,9 +2,9 @@ package com.eduardo.cursomc.domain.enums;
 
 public enum EstadoPagamento {
 	
-	PENDENTE(1, "Pagamento Pendente"),
-	QUITADO(2, "Pagamento Quitado"),
-	CANCELADO(3, "Pagamento Cancelado");
+	PENDENTE(1, "Pendente"),
+	QUITADO(2, "Quitado"),
+	CANCELADO(3, "Cancelado");
 
 	private int cod;
 	private String descricao;
@@ -22,6 +22,7 @@ public enum EstadoPagamento {
 	public String getDescricao() {
 		return descricao;
 	}
+	
 
 	public static EstadoPagamento toEnum(Integer cod) {
 
